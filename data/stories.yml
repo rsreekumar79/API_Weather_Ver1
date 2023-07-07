@@ -1,0 +1,27 @@
+version: "3.1"
+
+stories:
+
+- story: Weather Check fail
+  steps:
+  - intent: greet
+  - action: utter_greet_weather
+  - intent: check_weather
+  - slot_was_set:
+    - place
+  - action: action_check_weather
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_greet_weather
+  
+- story: Weather Check success
+  steps:
+  - intent: greet
+  - action: utter_greet_weather
+  - intent: check_weather
+  - slot_was_set:
+    - place
+  - action: action_check_weather
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy

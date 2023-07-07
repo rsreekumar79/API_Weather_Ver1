@@ -1,0 +1,7 @@
+version: "3.1"
+nlu:
+  - lookup: location
+    examples: |
+      - oslo
+      - tokyo
+      - toronto

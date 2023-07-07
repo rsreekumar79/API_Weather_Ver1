@@ -1,0 +1,49 @@
+version: '3.1'
+intents:
+- affirm
+- bot_challenge
+- check_weather
+- deny
+- goodbye
+- greet
+entities:
+- location
+slots:
+  place:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: location
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_greet_weather:
+  - text: Hello, Which location do you want me to give weather at?
+  - text: Hi, Give me the location where you want me to give the weather at.
+  - text: Hey, Where do you want to check weather at?
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  - text: Good!! Have a great day!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_feedback:
+  - text: Please wait, I am fetching the weather at {place}.
+  - text: Thanks for the patience, let me fetch the weather at {place} for you.
+  - text: You'll be getting the real time weather at {place} soon.
+  - text: You'll be getting the current weather at {place} in a few moments.
+  utter_sorry:
+  - text: Sorry, I am a weather bot and can provide weather information at various cities around the globe.
+  - text: Pardon me, Being a weather bot I can only provide weather information at various cities across the globe.
+actions:
+- utter_happy
+- utter_did_that_help
+- utter_greet_weather
+- action_check_weather
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

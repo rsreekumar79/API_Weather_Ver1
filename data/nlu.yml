@@ -1,0 +1,133 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Hello
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yea
+    - yep
+    - sure
+    - certainly
+    - in a good manner
+    - perfectly
+    - perfect
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nope
+    - not exactly
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - you are a bot right?
+    - Are you a virtual assistant?
+    - you are a virtual assistant right?
+    - am I talking to a virtual assistant?
+    - Am I talking to a human or a virtual assitant?
+    - Am i talking to a bot or a human?
+    - Are you a man or a woman?
+    - Are you a man?
+    - Am I talking to a woman?
+- intent: check_weather
+  examples: |
+    - What is the weather like at [Amsterdam](location)?
+    - I would like to know the weather at [London](location).
+    - What would be the weather at [Sydney](location)?
+    - what could be the weather at [oslo](location)?
+    - Weather at [Chennai](location)?
+    - Climatic feel at [Ottawa](location)?
+    - I would like to know what the climate is like at [Toronto](location).
+    - What would be the climate at [Oslo](location)?
+    - What is the weather at [Singapore](location)?
+    - [Paris](location)
+    - How about weather at [Brussels](location)?
+    - How about climate at [Rome](location)?
+    - How about [Toronto](location)?
+    - What about [Seoul](location)?
+    - [Tokyo](location)
+    - Give me the weather at [New york](location)
+    - Give me the weather at [Wasshah](location)
+    - Give me the climate at [Duarte](location)
+    - Give me the weather at [Coyula](location)
+    - give me the weather at [Creel](location)
+    - give me the weather at [New Hampshire](location)
+    - give me the weather at [Bali](location)
+    - Give me the weather at [Nevada](location)
+    - Give me the weather at [Give](location)
+    - give me the weather at [tokyo](location)
+    - what is the weather at [Chennau](location)?
+    - what is the weather at the city (Singapore)(location)?
+    - what is the weather at [amsterdam](location)?
+    - what is the climate at [toronto](location)?
+    - what is the weather at [dublin](location)?
+- intent: out_of_scope
+  examples: |
+    - What is the name of the dog?
+    - Where Can I get a Pizza
+    - I am hungry
+    - Who is the american president
+    - How to reduce weight?
+    - How to gain weight?
+    - What is the best way for fat loss?
+    - How can we control global warming?
+    - Where can I find my lost pet?
+    - What is earth?
+    - what is the purpose of life?
+    - When is the end of the world?
+    - when is the apocalypse?
+    - why is the earth a sphere?
+    - why is the earth revolving around the sun?
+    - why is the planet rotating?
+    - what do you mean by new moon?
+    - I want to travel to places
+    - I would like to have a burger.
+    - Where to get passport
+    - why do we laugh
+    - what happens when sun dies
+    - When was I born?
+    - What could be wrong with my laptop?
+    - What is wrong with my mobile?
+    - Why is the world crazy?
+    - Why am I happy?
+    - Why am I sad?
