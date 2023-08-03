@@ -28,7 +28,7 @@ class GetWeather(Action):
           
             #if current_place is "is" or "Is" or "give" or "give":
                    #current_place=tracker.latest_message['entities'][1]['value']
-                   #For_testing branch action
+                   #For_testing branch action test no. 2
 
                   #start here. it was stopped at this position. extracting 2nd entity from the list
 
