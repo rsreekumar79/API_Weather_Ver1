@@ -1,84 +1,78 @@
-#### This file contains tests to evaluate that your bot behaves as expected.
-#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
 version: "3.1"
 stories:
-- story: Weather Check fail
+- story: Weather Check fail (.\tests\test_stories.yml)
   steps:
-  - user: |
+  - user: |-
       Hey
   - intent: greet
   - action: utter_greet_weather
-  - user: |
+  - user: |-
       I want to know the weather at Tokyo
+  - action: action_listen  # predicted: action_default_fallback
   - intent: check_weather
-  - entities:
-    - location: Tokyo
   - slot_was_set:
     - place: Tokyo
   - action: action_check_weather
   - action: utter_did_that_help
-  - user: |
+  - user: |-
       Nope
+  - action: action_listen  # predicted: action_default_fallback
   - intent: deny
   - action: utter_greet_weather
-
-- story: Weather Check fail 2
+- story: Weather Check fail 2 (.\tests\test_stories.yml)
   steps:
-  - user: |
+  - user: |-
       Hello
   - intent: greet
   - action: utter_greet_weather
-  - user: |
+  - user: |-
       What is the weather at Oslo
+  - action: action_listen  # predicted: action_default_fallback
   - intent: check_weather
-  - entities:
-    - location: Oslo
   - slot_was_set:
     - place: Oslo
   - action: action_check_weather
   - action: utter_did_that_help
-  - user: |
+  - user: |-
       Not really
+  - action: action_listen  # predicted: action_default_fallback
   - intent: deny
   - action: utter_greet_weather
-
-- story: Weather Check Success
+- story: Weather Check Success (.\tests\test_stories.yml)
   steps:
-  - user: |
+  - user: |-
       Good Morning!
   - intent: greet
   - action: utter_greet_weather
-  - user: |
+  - user: |-
       Give me the weather at Chennai
+  - action: action_listen  # predicted: action_default_fallback
   - intent: check_weather
-  - entities:
-    - location: Chennai
   - slot_was_set:
     - place: Chennai
   - action: action_check_weather
   - action: utter_did_that_help
-  - user: |
+  - user: |-
       yes
+  - action: action_listen  # predicted: action_default_fallback
   - intent: affirm
   - action: utter_happy
-
-- story: Weather Check Success
+- story: Weather Check Success (.\tests\test_stories.yml)
   steps:
-  - user: |
+  - user: |-
       Hello there!
   - intent: greet
   - action: utter_greet_weather
-  - user: |
+  - user: |-
       I would like to know the climatic condition at Budapest
+  - action: action_listen  # predicted: action_default_fallback
   - intent: check_weather
-  - entities:
-    - location: Budapest
   - slot_was_set:
     - place: Budapest
   - action: action_check_weather
   - action: utter_did_that_help
-  - user: |
+  - user: |-
       certainly
+  - action: action_listen  # predicted: action_default_fallback
   - intent: affirm
   - action: utter_happy
-  

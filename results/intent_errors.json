@@ -1,0 +1,138 @@
+[
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9937201738357544
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6293540596961975
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9999178647994995
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9994139671325684
+    }
+  },
+  {
+    "text": "indeed",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6338701248168945
+    }
+  },
+  {
+    "text": "that sounds good",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9973581433296204
+    }
+  },
+  {
+    "text": "in a good manner",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.998492956161499
+    }
+  },
+  {
+    "text": "Tokyo",
+    "intent": "check_weather",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5124845504760742
+    }
+  },
+  {
+    "text": "let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6294435858726501
+    }
+  },
+  {
+    "text": "certainly",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7888134121894836
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7328960299491882
+    }
+  },
+  {
+    "text": "sure",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9666418433189392
+    }
+  },
+  {
+    "text": "never",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8679623603820801
+    }
+  },
+  {
+    "text": "Paris",
+    "intent": "check_weather",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7432770133018494
+    }
+  },
+  {
+    "text": "what do you mean by new moon?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "check_weather",
+      "confidence": 0.8077861666679382
+    }
+  },
+  {
+    "text": "I am hungry",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7637382745742798
+    }
+  },
+  {
+    "text": "I would like to have a burger.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "check_weather",
+      "confidence": 0.9991868138313293
+    }
+  }
+]

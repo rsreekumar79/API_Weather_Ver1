@@ -1,0 +1,1118 @@
+[
+  {
+    "text": "cee you later",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 3,
+        "value": "cee",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "have a nice day",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 7,
+        "end": 11,
+        "value": "nice",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "see you around",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 3,
+        "value": "see",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "see you later",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 3,
+        "value": "see",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "y",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 1,
+        "value": "y",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "of course",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 2,
+        "value": "of",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "never",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 5,
+        "value": "never",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I don't think so",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 2,
+        "end": 5,
+        "value": "don",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "don't like that",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 3,
+        "value": "don",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "are you a bot?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 3,
+        "value": "are",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 10,
+        "end": 13,
+        "value": "bot",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "are you a human?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 3,
+        "value": "are",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "am I talking to a bot?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 18,
+        "end": 21,
+        "value": "bot",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "you are a bot right?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 4,
+        "end": 7,
+        "value": "are",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 10,
+        "end": 13,
+        "value": "bot",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Are you a virtual assistant?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 3,
+        "value": "Are",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "you are a virtual assistant right?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 4,
+        "end": 7,
+        "value": "are",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Am i talking to a bot or a human?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 18,
+        "end": 21,
+        "value": "bot",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Are you a man or a woman?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 3,
+        "value": "Are",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 10,
+        "end": 13,
+        "value": "man",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Are you a man?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 3,
+        "value": "Are",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 10,
+        "end": 13,
+        "value": "man",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What is the weather like at Amsterdam?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 37,
+        "value": "Amsterdam",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 7,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 28,
+        "end": 37,
+        "value": "Amsterdam",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I would like to know what the climate is like at Toronto.",
+    "entities": [
+      {
+        "start": 49,
+        "end": 56,
+        "value": "Toronto",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 38,
+        "end": 40,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 49,
+        "end": 56,
+        "value": "Toronto",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "What is the weather at Singapore?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 32,
+        "value": "Singapore",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 7,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 32,
+        "value": "Singapore",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Give me the weather at New york",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "value": "New york",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 4,
+        "value": "Give",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 31,
+        "value": "New york",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Give me the weather at Wasshah",
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "value": "Wasshah",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 4,
+        "value": "Give",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Give me the climate at Duarte",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "Duarte",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 4,
+        "value": "Give",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 29,
+        "value": "Duarte",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Give me the weather at Coyula",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "Coyula",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 4,
+        "value": "Give",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 29,
+        "value": "Coyula",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "give me the weather at Creel",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "Creel",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 4,
+        "value": "Give",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 28,
+        "value": "Creel",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "give me the weather at New Hampshire",
+    "entities": [
+      {
+        "start": 23,
+        "end": 36,
+        "value": "New Hampshire",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 4,
+        "value": "Give",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 36,
+        "value": "New Hampshire",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "give me the weather at Bali",
+    "entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "Bali",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 4,
+        "value": "Give",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 27,
+        "value": "Bali",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Give me the weather at Nevada",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "Nevada",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 4,
+        "value": "Give",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 29,
+        "value": "Nevada",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Give me the weather at Give",
+    "entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "Give",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 4,
+        "value": "Give",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 27,
+        "value": "Give",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "give me the weather at tokyo",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "tokyo",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 4,
+        "value": "Give",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 28,
+        "value": "Tokyo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what is the weather at Chennau?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "value": "Chennau",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 7,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what is the weather at the city (Singapore)(location)?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 7,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 33,
+        "end": 42,
+        "value": "Singapore",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what is the weather at amsterdam?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 32,
+        "value": "amsterdam",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 7,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 32,
+        "value": "Amsterdam",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what is the climate at toronto?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "value": "toronto",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 7,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 30,
+        "value": "Toronto",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what is the weather at dublin?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "dublin",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 7,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 29,
+        "value": "dublin",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "What is the name of the dog?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 7,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 17,
+        "end": 19,
+        "value": "of",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Who is the american president",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 4,
+        "end": 6,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What is the best way for fat loss?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 7,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 12,
+        "end": 16,
+        "value": "best",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What is earth?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 7,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 8,
+        "end": 13,
+        "value": "earth",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what is the purpose of life?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 7,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 20,
+        "end": 22,
+        "value": "of",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "When is the end of the world?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 7,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 16,
+        "end": 18,
+        "value": "of",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "when is the apocalypse?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 7,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "why is the earth a sphere?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 4,
+        "end": 6,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 11,
+        "end": 16,
+        "value": "earth",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "why is the earth revolving around the sun?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 4,
+        "end": 6,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 11,
+        "end": 16,
+        "value": "earth",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "why is the planet rotating?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 4,
+        "end": 6,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I would like to have a burger.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 29,
+        "value": "burger",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what happens when sun dies",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 22,
+        "end": 26,
+        "value": "dies",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "When was I born?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 11,
+        "end": 15,
+        "value": "born",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What is wrong with my mobile?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 5,
+        "end": 7,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 22,
+        "end": 28,
+        "value": "mobile",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Why is the world crazy?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 4,
+        "end": 6,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Why the world is like this",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 14,
+        "end": 16,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Which is the best song?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 6,
+        "end": 8,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 13,
+        "end": 17,
+        "value": "best",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 18,
+        "end": 22,
+        "value": "song",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Which is the movie ever made?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 6,
+        "end": 8,
+        "value": "is",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 24,
+        "end": 28,
+        "value": "made",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  }
+]
