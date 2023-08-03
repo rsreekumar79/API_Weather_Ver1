@@ -32,6 +32,7 @@ responses:
   - text: See you!
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  - text: I am not a human, but a bot powered by RASA.
   utter_feedback:
   - text: Please wait, I am fetching the weather at {place}.
   - text: Thanks for the patience, let me fetch the weather at {place} for you.
