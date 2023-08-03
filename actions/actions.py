@@ -31,7 +31,7 @@ class GetWeather(Action):
 
                   #start here. it was stopped at this position. extracting 2nd entity from the list
 
-            error_msg_CP_None=f"Current Place is None from Lookup table, Sorry, such a location {current_place} could not be found in the database. Can you recheck and enter the location again?" 
+            error_msg_CP_None=f"Current Place is None from Lookup table, Sorry, such a location {current_place} could not be found in the database. Can you recheck and enter the location correctly again?" 
             error_msg_COD_200=f"Error !=200, Sorry, such a location {current_place} could not be found in the database. Can you recheck and enter the location again?" 
 
             if current_place is None:
