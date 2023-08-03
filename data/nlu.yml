@@ -69,6 +69,7 @@ nlu:
     - Are you a man or a woman?
     - Are you a man?
     - Am I talking to a woman?
+    - Am I talking to an agent?
 - intent: check_weather
   examples: |
     - What is the weather like at [Amsterdam](location)?
