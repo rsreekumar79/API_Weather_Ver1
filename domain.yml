@@ -28,7 +28,8 @@ responses:
   - text: Great, carry on!
   - text: Good!! Have a great day!
   utter_goodbye:
-  - text: Bye
+  - text: Bye!
+  - text: See you!
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_feedback:
