@@ -23,7 +23,7 @@ class GetWeather(Action):
             
             current_place=next(tracker.get_latest_entity_values ("location"), None)
             #msg=f"{tracker.latest_message}"
-            #dispatcher.utter_message(text=msg)
+            #dispatcher.utter_message(text=msg) test
        
           
             #if current_place is "is" or "Is" or "give" or "give":
